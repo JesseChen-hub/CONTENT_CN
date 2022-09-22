@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../../../img/favicon.ico">
+  <title>FT-8系列之MAC安装WSJT-X - JC'S CONTENT PAGES</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "FT-8\u7cfb\u5217\u4e4bMAC\u5b89\u88c5WSJT-X";
+    var mkdocs_page_input_path = "HAM_DIGI/FT-8/posts/FT-8\u7cfb\u5217\u4e4bMAC\u8f6f\u4ef6\u5b89\u88c5.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../../.." class="icon icon-home"> JC'S CONTENT PAGES</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../../..">CONTENT管理手册</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">SDR</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../../../SDR/GNURadio/index_GNURadio/">GNURadio</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">IT</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../../../IT/LINUX/index_LINUX/">LINUX</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../../../IT/RASPBERRY-PI/index_RASPBERRY-PI/">RASPBERRY-PI</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../../../IT/VIRTUAL-BOX/index_VIRTUAL-BOX/">VIRTUAL-BOX</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../../../IT/GITHUB/index_github/">GITHUB</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">DIGI</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../index_ft8/">FT-8</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../../..">JC'S CONTENT PAGES</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>FT-8系列之MAC安装WSJT-X</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="ft-8macwsjt-x">FT-8系列之MAC安装WSJT-X</h1>
+<h2 id="_1">软件下载</h2>
+<p>玩FT-8常用的软件是WSJT-X。软件的具体设置在不同的操作系统中都是一致的，我们下一篇文章再讲。</p>
+<p>因为笔者使用的是MacOS，这篇文章来讲一讲WSJT-X在Mac当中的下载，及软件外的环境配置。</p>
+<p>第一步当然是下载软件WSJT-X，我们到它的官网去下载，笔者下载的版本是当前的最新版本v2.5.4。</p>
+<p><a href="https://physics.princeton.edu/pulsar/k1jt/wsjtx.html">WSJT-X官网传送门</a></p>
+<p>我们下拉页面找到这里点击下载。</p>
+<p><img alt="1" src="../../img/FT-8系列之MAC软件安装/1.png" /></p>
+<p>软件下载好后很重要的步骤就来了。我们分为3步 - 移动配置文件，修改声卡参数，同步时间</p>
+<h2 id="_2">移动配置文件</h2>
+<p>像平常安装其他mac软件一样，首先双击下载好的<code>.dmg</code>文件，出现一个弹窗。有如图三个文件。左边的<code>wsjtx</code>很好理解，就是平常我们安装mac软件的包，关键的是右下角的文件，我们需要在安装前对它进行操作。</p>
+<p><img alt="1" src="../../img/FT-8系列之MAC软件安装/2.png" /></p>
+<p>我们需要把<code>com.wsjtx.sysctl.plist</code>这个配置文件，放到我们一个系统文件夹当中去。方法如下:</p>
+<p>我们打开一个terminal(中文叫做终端)。如果不知道如何打开终端，可以看<a href="https://www.xitongcheng.com/jiaocheng/dnrj_article_73564.html">这里</a></p>
+<p>在终端里我们输入一行命令</p>
+<pre><code>sudo cp /Volumes/WSJT-X/com.wsjtx.sysctl.plist /Library/LaunchDaemons
+</code></pre>
+
+<p>像这样</p>
+<p><img alt="3" src="../../img/FT-8系列之MAC软件安装/3.png" /></p>
+<p>回车，输入系统的密码(注意密码不会显示出来，只管输入然后回车就好)即可执行。</p>
+<p>这行命令执行的操作是把我们刚才说的<code>com.wsjtx.sysctl.plist</code>这个配置文件，放到我们的系统文件夹<code>/Library/LaunchDaemons</code>当中。这么做的原因是WSJT-X这个软件使用共享内存当中的一个区块，然而mac系统对这一块的配置并不完善，<code>com.wsjtx.sysctl.plist</code>这个配置文件就是告诉mac系统需要怎么改变，所以我们执行以上命令把它放置到系统文件夹当中去。</p>
+<p>好了我们继续。</p>
+<p>现在我们需要重启电脑，才能使上面这个配置文件生效。重启后我们再次打开terminal，输入以下指令，目的是查看配置文件是否让mac系统改变成我们要的状态了。</p>
+<pre><code>sysctl -a | grep sysv.shm
+</code></pre>
+
+<p>如果shmmax这个参数变成了52428800则说明，已经修改成功。</p>
+<p><img alt="4" src="../../img/FT-8系列之MAC软件安装/4.png" /></p>
+<h2 id="_3">修改声卡参数</h2>
+<p>我们需要来到'Audio MIDI setup'的界面，长下面这样。这里不花篇幅去介绍具体在电脑中的位置了，百度一下一分钟就搞定了。</p>
+<p><img alt="5" src="../../img/FT-8系列之MAC软件安装/5.png" /></p>
+<p>如图，我们需要把输入和输出都设置成<code>48000Hz</code>。这里就搞定了。</p>
+<h2 id="_4">同步时间</h2>
+<p>最后一步是同步时间，我们打开日期&amp;时间，保证时间自动同步即可。</p>
+<p><img alt="6" src="../../img/FT-8系列之MAC软件安装/6.png" /></p>
+<p>到这里，外部环境就已经设置好了。接下来把WSJT-X安装好，就可以进行下一步，去设置WSJT-X了。</p>
+<hr />
+<p>欢迎关注我</p>
+<p>我的微信公众号：LLY业余无线电那些事</p>
+<p>我的知乎业余无线电专栏： https://www.zhihu.com/column/c_1392777577560424448</p>
+<p><img alt="n" src="../../../../n.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../../../..';</script>
+    <script src="../../../../js/theme.js" defer></script>
+      <script src="../../../../search/main.js" defer></script>
+
+</body>
+</html>
