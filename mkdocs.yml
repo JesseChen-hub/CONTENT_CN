@@ -1,0 +1,18 @@
+site_name: JC'S CONTENT PAGES
+
+theme:
+    name: readthedocs
+
+nav:
+
+- CONTENT管理手册: index.md
+- SDR:
+  - GNURadio: SDR/GNURadio/index_GNURadio.md
+- IT:
+  - LINUX: IT/LINUX/index_LINUX.md
+  - RASPBERRY-PI: IT/RASPBERRY-PI/index_RASPBERRY-PI.md
+  - VIRTUAL-BOX: IT/VIRTUAL-BOX/index_VIRTUAL-BOX.md
+  - GITHUB: IT/GITHUB/index_github.md
+
+- DIGI:
+  - FT-8: HAM_DIGI/FT-8/index_ft8.md
